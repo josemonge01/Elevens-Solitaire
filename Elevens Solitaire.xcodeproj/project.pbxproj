@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29014EDE265866B000BD140F /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29014EDD265866B000BD140F /* OptionsViewController.swift */; };
+		29014EE026588CED00BD140F /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29014EDF26588CED00BD140F /* AudioPlayer.swift */; };
+		29014F05265898F200BD140F /* lose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 29014EFF265898F200BD140F /* lose.m4a */; };
+		29014F06265898F200BD140F /* start.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 29014F00265898F200BD140F /* start.m4a */; };
+		29014F07265898F200BD140F /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 29014F01265898F200BD140F /* success.m4a */; };
+		29014F08265898F200BD140F /* win.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 29014F02265898F200BD140F /* win.m4a */; };
+		29014F09265898F200BD140F /* special_win.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 29014F03265898F200BD140F /* special_win.m4a */; };
+		29014F0A265898F200BD140F /* fail.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 29014F04265898F200BD140F /* fail.m4a */; };
+		292FABE4265CB0E900E3729D /* HowToPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292FABE3265CB0E900E3729D /* HowToPlayViewController.swift */; };
+		292FABE6265CB40A00E3729D /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292FABE5265CB40A00E3729D /* StringExt.swift */; };
+		29AA14632654C9DA003E7EDC /* ArcadeGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AA14622654C9DA003E7EDC /* ArcadeGameViewController.swift */; };
+		29AA14662654D0DE003E7EDC /* Data+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AA14642654D0DE003E7EDC /* Data+CoreDataClass.swift */; };
+		29AA14672654D0DE003E7EDC /* Data+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AA14652654D0DE003E7EDC /* Data+CoreDataProperties.swift */; };
+		29AB2E4C25D32C8B0001CA7F /* LeaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB2E4B25D32C8B0001CA7F /* LeaderBoardView.swift */; };
+		29AB2E5525D32D4C0001CA7F /* Score+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB2E5125D32D4C0001CA7F /* Score+CoreDataClass.swift */; };
+		29AB2E5625D32D4C0001CA7F /* Score+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB2E5225D32D4C0001CA7F /* Score+CoreDataProperties.swift */; };
+		29AB2E5C25D383A60001CA7F /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB2E5B25D383A60001CA7F /* MainMenuViewController.swift */; };
+		29AB2E6025D388A90001CA7F /* ClassicGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB2E5F25D388A90001CA7F /* ClassicGameViewController.swift */; };
+		29ABA7D7265ADDAD0040E7B2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29ABA7D9265ADDAD0040E7B2 /* Localizable.strings */; };
+		29AD6C2A25C87224000D9124 /* ElevensButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AD6C2925C87224000D9124 /* ElevensButton.swift */; };
+		29AD6C3125C87AA5000D9124 /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AD6C3025C87AA5000D9124 /* LayoutView.swift */; };
+		29AD6C3425C88264000D9124 /* ElevensStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AD6C3325C88264000D9124 /* ElevensStyle.swift */; };
+		29E5866425C7C3E600BD88F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5866325C7C3E600BD88F4 /* AppDelegate.swift */; };
+		29E5866625C7C3E600BD88F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5866525C7C3E600BD88F4 /* SceneDelegate.swift */; };
+		29E5866825C7C3E600BD88F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5866725C7C3E600BD88F4 /* ViewController.swift */; };
+		29E5866B25C7C3E600BD88F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E5866925C7C3E600BD88F4 /* Main.storyboard */; };
+		29E5866E25C7C3E600BD88F4 /* Elevens_Solitaire.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29E5866C25C7C3E600BD88F4 /* Elevens_Solitaire.xcdatamodeld */; };
+		29E5867025C7C3E700BD88F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E5866F25C7C3E700BD88F4 /* Assets.xcassets */; };
+		29E5867325C7C3E700BD88F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E5867125C7C3E700BD88F4 /* LaunchScreen.storyboard */; };
+		29E5867D25C7C44A00BD88F4 /* GameComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5867C25C7C44A00BD88F4 /* GameComponents.swift */; };
+		29E5868225C7C8EB00BD88F4 /* ClassicGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5868125C7C8EB00BD88F4 /* ClassicGame.swift */; };
+		29E5869025C7D0EA00BD88F4 /* ArcadeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5868F25C7D0EA00BD88F4 /* ArcadeGame.swift */; };
+		29EDCCBE25C8DCBC00995523 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDCCBD25C8DCBC00995523 /* StatusView.swift */; };
+		29EDCCC125C8E49B00995523 /* GameAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDCCC025C8E49B00995523 /* GameAlertView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29014EDD265866B000BD140F /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		29014EDF26588CED00BD140F /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		29014EE2265892BD00BD140F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		29014EFF265898F200BD140F /* lose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = lose.m4a; path = Sounds/lose.m4a; sourceTree = "<group>"; };
+		29014F00265898F200BD140F /* start.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = start.m4a; path = Sounds/start.m4a; sourceTree = "<group>"; };
+		29014F01265898F200BD140F /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = success.m4a; path = Sounds/success.m4a; sourceTree = "<group>"; };
+		29014F02265898F200BD140F /* win.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = win.m4a; path = Sounds/win.m4a; sourceTree = "<group>"; };
+		29014F03265898F200BD140F /* special_win.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = special_win.m4a; path = Sounds/special_win.m4a; sourceTree = "<group>"; };
+		29014F04265898F200BD140F /* fail.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = fail.m4a; path = Sounds/fail.m4a; sourceTree = "<group>"; };
+		2923C87425EC409800B8AFA6 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		292FABE3265CB0E900E3729D /* HowToPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayViewController.swift; sourceTree = "<group>"; };
+		292FABE5265CB40A00E3729D /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		29AA14622654C9DA003E7EDC /* ArcadeGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeGameViewController.swift; sourceTree = "<group>"; };
+		29AA14642654D0DE003E7EDC /* Data+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+CoreDataClass.swift"; sourceTree = "<group>"; };
+		29AA14652654D0DE003E7EDC /* Data+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		29AB2E4B25D32C8B0001CA7F /* LeaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
+		29AB2E5125D32D4C0001CA7F /* Score+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Score+CoreDataClass.swift"; sourceTree = "<group>"; };
+		29AB2E5225D32D4C0001CA7F /* Score+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Score+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		29AB2E5B25D383A60001CA7F /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		29AB2E5F25D388A90001CA7F /* ClassicGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicGameViewController.swift; sourceTree = "<group>"; };
+		29ABA7D8265ADDAD0040E7B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		29ABA7DA265ADE680040E7B2 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
+		29ABA7DB265ADE680040E7B2 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		29ABA7DD265ADE900040E7B2 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		29AD6C2925C87224000D9124 /* ElevensButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevensButton.swift; sourceTree = "<group>"; };
+		29AD6C3025C87AA5000D9124 /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
+		29AD6C3325C88264000D9124 /* ElevensStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevensStyle.swift; sourceTree = "<group>"; };
+		29E5866025C7C3E600BD88F4 /* Elevens Solitaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elevens Solitaire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E5866325C7C3E600BD88F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29E5866525C7C3E600BD88F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		29E5866725C7C3E600BD88F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29E5866A25C7C3E600BD88F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29E5866D25C7C3E600BD88F4 /* Elevens_Solitaire.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Elevens_Solitaire.xcdatamodel; sourceTree = "<group>"; };
+		29E5866F25C7C3E700BD88F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29E5867225C7C3E700BD88F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29E5867C25C7C44A00BD88F4 /* GameComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameComponents.swift; sourceTree = "<group>"; };
+		29E5868125C7C8EB00BD88F4 /* ClassicGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicGame.swift; sourceTree = "<group>"; };
+		29E5868A25C7D07400BD88F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Elevens Solitaire/Info.plist"; sourceTree = "<group>"; };
+		29E5868F25C7D0EA00BD88F4 /* ArcadeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeGame.swift; sourceTree = "<group>"; };
+		29EDCCBD25C8DCBC00995523 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		29EDCCC025C8E49B00995523 /* GameAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAlertView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29E5865D25C7C3E600BD88F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29014EE1265892BD00BD140F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29014EE2265892BD00BD140F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29AB2E4E25D32CFC0001CA7F /* Managed Objects */ = {
+			isa = PBXGroup;
+			children = (
+				29AA14642654D0DE003E7EDC /* Data+CoreDataClass.swift */,
+				29AA14652654D0DE003E7EDC /* Data+CoreDataProperties.swift */,
+				29AB2E5125D32D4C0001CA7F /* Score+CoreDataClass.swift */,
+				29AB2E5225D32D4C0001CA7F /* Score+CoreDataProperties.swift */,
+			);
+			path = "Managed Objects";
+			sourceTree = "<group>";
+		};
+		29AB2E5A25D383900001CA7F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				29014EDD265866B000BD140F /* OptionsViewController.swift */,
+				29AB2E5B25D383A60001CA7F /* MainMenuViewController.swift */,
+				29AB2E5F25D388A90001CA7F /* ClassicGameViewController.swift */,
+				292FABE3265CB0E900E3729D /* HowToPlayViewController.swift */,
+				29AA14622654C9DA003E7EDC /* ArcadeGameViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		29AD6C2825C871D3000D9124 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29AD6C2925C87224000D9124 /* ElevensButton.swift */,
+				29AD6C3025C87AA5000D9124 /* LayoutView.swift */,
+				29EDCCBD25C8DCBC00995523 /* StatusView.swift */,
+				29EDCCC025C8E49B00995523 /* GameAlertView.swift */,
+				29AB2E4B25D32C8B0001CA7F /* LeaderBoardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29E5865725C7C3E500BD88F4 = {
+			isa = PBXGroup;
+			children = (
+				29E5868A25C7D07400BD88F4 /* Info.plist */,
+				29E5866225C7C3E600BD88F4 /* Elevens Solitaire */,
+				29E5866125C7C3E600BD88F4 /* Products */,
+				29014EE1265892BD00BD140F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29E5866125C7C3E600BD88F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29E5866025C7C3E600BD88F4 /* Elevens Solitaire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29E5866225C7C3E600BD88F4 /* Elevens Solitaire */ = {
+			isa = PBXGroup;
+			children = (
+				29E5866325C7C3E600BD88F4 /* AppDelegate.swift */,
+				29E5866525C7C3E600BD88F4 /* SceneDelegate.swift */,
+				29E5866725C7C3E600BD88F4 /* ViewController.swift */,
+				29E5866925C7C3E600BD88F4 /* Main.storyboard */,
+				29E5867125C7C3E700BD88F4 /* LaunchScreen.storyboard */,
+				29E5866C25C7C3E600BD88F4 /* Elevens_Solitaire.xcdatamodeld */,
+				29AB2E5A25D383900001CA7F /* ViewControllers */,
+				29AB2E4E25D32CFC0001CA7F /* Managed Objects */,
+				29AD6C2825C871D3000D9124 /* Views */,
+				29E5867B25C7C3F800BD88F4 /* Classes */,
+				29014F04265898F200BD140F /* fail.m4a */,
+				29014EFF265898F200BD140F /* lose.m4a */,
+				29014F03265898F200BD140F /* special_win.m4a */,
+				29014F00265898F200BD140F /* start.m4a */,
+				29014F01265898F200BD140F /* success.m4a */,
+				29014F02265898F200BD140F /* win.m4a */,
+				2923C87425EC409800B8AFA6 /* Sounds */,
+				29E5866F25C7C3E700BD88F4 /* Assets.xcassets */,
+			);
+			path = "Elevens Solitaire";
+			sourceTree = "<group>";
+		};
+		29E5867B25C7C3F800BD88F4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29E5867C25C7C44A00BD88F4 /* GameComponents.swift */,
+				29ABA7D9265ADDAD0040E7B2 /* Localizable.strings */,
+				29014EDF26588CED00BD140F /* AudioPlayer.swift */,
+				29E5868125C7C8EB00BD88F4 /* ClassicGame.swift */,
+				29E5868F25C7D0EA00BD88F4 /* ArcadeGame.swift */,
+				29AD6C3325C88264000D9124 /* ElevensStyle.swift */,
+				292FABE5265CB40A00E3729D /* StringExt.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29E5865F25C7C3E600BD88F4 /* Elevens Solitaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E5867725C7C3E700BD88F4 /* Build configuration list for PBXNativeTarget "Elevens Solitaire" */;
+			buildPhases = (
+				29E5865C25C7C3E600BD88F4 /* Sources */,
+				29E5865D25C7C3E600BD88F4 /* Frameworks */,
+				29E5865E25C7C3E600BD88F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Elevens Solitaire";
+			productName = "Elevens Solitaire";
+			productReference = 29E5866025C7C3E600BD88F4 /* Elevens Solitaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29E5865825C7C3E500BD88F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					29E5865F25C7C3E600BD88F4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 29E5865B25C7C3E500BD88F4 /* Build configuration list for PBXProject "Elevens Solitaire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"es-419",
+			);
+			mainGroup = 29E5865725C7C3E500BD88F4;
+			productRefGroup = 29E5866125C7C3E600BD88F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29E5865F25C7C3E600BD88F4 /* Elevens Solitaire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29E5865E25C7C3E600BD88F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29014F06265898F200BD140F /* start.m4a in Resources */,
+				29014F0A265898F200BD140F /* fail.m4a in Resources */,
+				29E5867325C7C3E700BD88F4 /* LaunchScreen.storyboard in Resources */,
+				29E5867025C7C3E700BD88F4 /* Assets.xcassets in Resources */,
+				29014F08265898F200BD140F /* win.m4a in Resources */,
+				29ABA7D7265ADDAD0040E7B2 /* Localizable.strings in Resources */,
+				29E5866B25C7C3E600BD88F4 /* Main.storyboard in Resources */,
+				29014F09265898F200BD140F /* special_win.m4a in Resources */,
+				29014F07265898F200BD140F /* success.m4a in Resources */,
+				29014F05265898F200BD140F /* lose.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29E5865C25C7C3E600BD88F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EDCCC125C8E49B00995523 /* GameAlertView.swift in Sources */,
+				29AB2E6025D388A90001CA7F /* ClassicGameViewController.swift in Sources */,
+				29AA14632654C9DA003E7EDC /* ArcadeGameViewController.swift in Sources */,
+				29014EDE265866B000BD140F /* OptionsViewController.swift in Sources */,
+				29E5866825C7C3E600BD88F4 /* ViewController.swift in Sources */,
+				29AA14662654D0DE003E7EDC /* Data+CoreDataClass.swift in Sources */,
+				29EDCCBE25C8DCBC00995523 /* StatusView.swift in Sources */,
+				29AD6C3125C87AA5000D9124 /* LayoutView.swift in Sources */,
+				29E5869025C7D0EA00BD88F4 /* ArcadeGame.swift in Sources */,
+				29E5868225C7C8EB00BD88F4 /* ClassicGame.swift in Sources */,
+				292FABE6265CB40A00E3729D /* StringExt.swift in Sources */,
+				29E5866425C7C3E600BD88F4 /* AppDelegate.swift in Sources */,
+				29AD6C2A25C87224000D9124 /* ElevensButton.swift in Sources */,
+				292FABE4265CB0E900E3729D /* HowToPlayViewController.swift in Sources */,
+				29AB2E4C25D32C8B0001CA7F /* LeaderBoardView.swift in Sources */,
+				29014EE026588CED00BD140F /* AudioPlayer.swift in Sources */,
+				29E5866625C7C3E600BD88F4 /* SceneDelegate.swift in Sources */,
+				29AA14672654D0DE003E7EDC /* Data+CoreDataProperties.swift in Sources */,
+				29AD6C3425C88264000D9124 /* ElevensStyle.swift in Sources */,
+				29E5866E25C7C3E600BD88F4 /* Elevens_Solitaire.xcdatamodeld in Sources */,
+				29E5867D25C7C44A00BD88F4 /* GameComponents.swift in Sources */,
+				29AB2E5625D32D4C0001CA7F /* Score+CoreDataProperties.swift in Sources */,
+				29AB2E5C25D383A60001CA7F /* MainMenuViewController.swift in Sources */,
+				29AB2E5525D32D4C0001CA7F /* Score+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29ABA7D9265ADDAD0040E7B2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29ABA7D8265ADDAD0040E7B2 /* en */,
+				29ABA7DD265ADE900040E7B2 /* es-419 */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		29E5866925C7C3E600BD88F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E5866A25C7C3E600BD88F4 /* Base */,
+				29ABA7DA265ADE680040E7B2 /* es-419 */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29E5867125C7C3E700BD88F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E5867225C7C3E700BD88F4 /* Base */,
+				29ABA7DB265ADE680040E7B2 /* es-419 */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29E5867525C7C3E700BD88F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29E5867625C7C3E700BD88F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29E5867825C7C3E700BD88F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4AU485AM4;
+				INFOPLIST_FILE = "Elevens Solitaire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Monge.Elevens-Solitaire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29E5867925C7C3E700BD88F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4AU485AM4;
+				INFOPLIST_FILE = "Elevens Solitaire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Monge.Elevens-Solitaire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29E5865B25C7C3E500BD88F4 /* Build configuration list for PBXProject "Elevens Solitaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E5867525C7C3E700BD88F4 /* Debug */,
+				29E5867625C7C3E700BD88F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E5867725C7C3E700BD88F4 /* Build configuration list for PBXNativeTarget "Elevens Solitaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E5867825C7C3E700BD88F4 /* Debug */,
+				29E5867925C7C3E700BD88F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		29E5866C25C7C3E600BD88F4 /* Elevens_Solitaire.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				29E5866D25C7C3E600BD88F4 /* Elevens_Solitaire.xcdatamodel */,
+			);
+			currentVersion = 29E5866D25C7C3E600BD88F4 /* Elevens_Solitaire.xcdatamodel */;
+			path = Elevens_Solitaire.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29E5865825C7C3E500BD88F4 /* Project object */;
+}

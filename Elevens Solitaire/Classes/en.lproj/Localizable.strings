@@ -1,0 +1,47 @@
+"button_classic_mode" = "Classic Mode";
+"button_arcade_mode" = "Arcade Mode";
+"button_options" = "Options";
+"button_pause" = "Pause";
+"button_resume" = "Resume";
+"button_new_game" = "New Game";
+"button_how_to_play" = "How to Play";
+"button_quit" = "Quit";
+"button_done" = "Done";
+
+"status_deck" = "cards left in Deck";
+"status_time" = "Time: ";
+"status_best_time" = "Best Time: ";
+"status_score" = "Score: ";
+"status_best_score" = "Best Score: ";
+
+"menu_pause" = "PAUSE";
+"menu_you_win" = "YOU WIN!";
+"menu_you_lose" = "YOU LOSE!";
+"menu_times_up" = "TIME'S UP!";
+"menu_your_time" = "Your Time";
+"menu_best_time" = "Best Time";
+"menu_your_score" = "Your Score";
+"menu_best_score" = "Best Score";
+"menu_lose_msg" = "There are no more possible moves.";
+
+"options_title" = "Options";
+"options_deck" = "Deck";
+"options_background_color" = "Background Color";
+"options_reset_scores" = "Reset Scores";
+
+"alert_reset_title" = "Reset Scores?";
+"alert_reset_msg" = "This action cannot be undone. Continue?";
+
+"htp_title" = "How to Play";
+"htp_classic" = "Classic Mode";
+"htp_arcade" = "Arcade Mode";
+
+"htp_cl_text1" = "Select two cards whose sum is 11 to remove them from the layout. Cards that are removed will be replaced with cards in the deck.";
+"htp_cl_text2" = "Ace cards have a value of 1, and face cards must be paired with eachother.";
+"htp_cl_text3" = "If there are no more possible moves with the cards in the layout, then the game is over and you lose.";
+"htp_cl_text4" = "If there are no more cards in the layout and none in the deck, the game ends and you win. Try to clear the deck as fast as you can.";
+
+"htp_ar_text1" = "Select two cards whose sum is 11 to remove them from the layout. Cards that are removed will be replaced with cards from the deck.";
+"htp_ar_text2" = "Ace cards have a value of 1, and face cards must be paired with eachother.";
+"htp_ar_text3" = "Each pair is worth 1 point. Selecting an invalid pair deducts 1 point.";
+"htp_ar_text4" = "Try to score as many points as possible before time runs out.";

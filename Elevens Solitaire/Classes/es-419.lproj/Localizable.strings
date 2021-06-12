@@ -1,0 +1,55 @@
+
+"button_classic_mode" = "Modo Clásico";
+"button_arcade_mode" = "Modo Arcade";
+"button_options" = "Opciones";
+"button_pause" = "Pausa";
+"button_resume" = "Resumir";
+"button_new_game" = "Nuevo Juego";
+"button_how_to_play" = "Cómo Jugar";
+"button_quit" = "Salir";
+"button_done" = "Terminado";
+
+"status_deck" = " cartas en la baraja";
+"status_time" = "Tiempo: ";
+"status_best_time" = "Mejor Tiempo: ";
+"status_score" = "Puntaje: ";
+"status_best_score" = "Record: ";
+
+"menu_pause" = "PAUSA";
+"menu_you_win" = "VICTORIA!";
+"menu_you_lose" = "FRACASO!";
+"menu_times_up" = "SE ACABÔ!";
+"menu_your_time" = "Su Tiempo: ";
+"menu_best_time" = "Mejor Tiempo: ";
+"menu_your_score" = "Su Puntaje: ";
+"menu_best_score" = "Record: ";
+"menu_lose_msg" = "No hay más movimientos posibles.";
+
+"options_title" = "Opciones";
+"options_deck" = "Baraja";
+"options_background_color" = "Color de Fondo";
+"options_reset_scores" = "Reiniciar los Recordes";
+
+"alert_reset_title" = "Reiniciar los Recordes?";
+"alert_reset_msg" = "La accíon no se puede deshacer";
+
+"htp_title" = "Cómo Jugar";
+"htp_classic" = "Modo Clásico";
+"htp_arcade" = "Modo Arcade";
+
+"htp_cl_text1" = "Seleccione dos cartas cuya suma sea 11 para eliminarlas de la mesa. Las cartas que se eliminen serán reemplazadas por cartas de la baraja.";
+
+"htp_cl_text2" = "Las cartas de ases tienen un valor de 1, y las cartas de figura deben combinarse entre sí.";
+
+"htp_cl_text3" = "Si no hay más movimientos posibles con las cartas en la mesa, entonces el juego termina y usted pierda.";
+
+"htp_cl_text4" = "Si no hay más cartas en la mesa y ninguna en la baraja, el juego termina y usted gana. Intente despejar la baraja lo más rápido que pueda.";
+
+"htp_ar_text1" = "Seleccione dos cartas cuya suma sea 11 para eliminarlas de la mesa. Las cartas que se eliminen serán reemplazadas por cartas de la baraja.";
+
+"htp_ar_text2" = "Las cartas de as tienen un valor de 1, y las cartas de figura deben combinarse entre sí.";
+
+"htp_ar_text3" = "Cada par vale 1 punto. Seleccionar un par que no es válido, reduce un punto.";
+
+"htp_ar_text4" = "Trate de sumar tantos puntos como sea posible antes de que acabe el tiempo.";
+
